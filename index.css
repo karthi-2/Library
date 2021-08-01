@@ -1,0 +1,28 @@
+body{
+	background-image: url('library.jpg'); 
+	background-size: 100% 100%; 
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-attachment: fixed;
+}
+div{
+	text-align: center;
+}
+span{
+	text-align: center; 
+	font-weight: bold; 
+	color: black; 
+	font-size: 40px;
+	background-color: lightblue;
+}
+a{
+	display: block;
+	text-decoration: none;
+
+}
+button{
+	background-color: lightseagreen;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 25px;
+}

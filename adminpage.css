@@ -1,0 +1,112 @@
+*{
+	margin:  0px;
+	padding:  0px;
+}
+body{
+	background-color: lightblue;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 43px;
+	width: 100%;
+	background-color: black;
+	line-height: 43px;
+	font-size: 20px;
+}
+.library{
+	float: left;
+	color: white;
+	border-right: none;
+	border-left: none;
+}
+.contact{
+	border-right: none;
+}
+.home{
+	border-left: 2px solid white;
+}
+li{
+	float: right;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+}
+.la{
+	display: block;
+	padding: 0 28px;
+	color: white;
+	text-decoration: none;
+}
+
+.la:hover{
+	background-color: lightblue;
+}
+div{
+	width: 80%;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding: 10px 10px;
+	background-color: white;
+	text-align: center;
+
+}
+.r{
+	width: 27%;
+	height: 30%;
+	padding: 15px 15px;
+	margin-bottom: 50px;
+}
+.a{
+	width: 27%;
+	height: 20%;
+	padding: 15px 15px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+.v{
+	width: 20%;
+	height: 15%;
+	padding: 15px 15px;
+	margin-bottom: 50px;
+}
+.main{
+	text-align: center;
+	margin: 100px auto 0px auto;
+	background-color: lightblue;
+}
+.table{
+	background-color: lightblue;
+}
+.members{
+	margin-right: 200px;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+.add{
+	margin-right: 150px;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+.view{
+	margin-left: 50px;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+.r:hover{
+	transform: scale(1.1);
+}
+.a:hover{
+	transform: scale(1.1);
+}
+.v:hover{
+	transform: scale(1.1);
+}
+
+
