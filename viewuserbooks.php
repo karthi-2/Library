@@ -27,8 +27,8 @@
 			<th><b>Borrow</b></th>
 		</tr>
 		<?php
-		$connection=mysqli_connect("localhost:3307","root","","library");
-		mysqli_select_db($connection,"library") or die("no database");
+		$connection=mysqli_connect("remotemysql.com","SD3e56MviP","d2ti4lGteY","SD3e56MviP") or die("no connected");
+		mysqli_select_db($connection,"SD3e56MviP") or die("no database");
 		if($connection-> connect_error){
 			die("connection failed:". $connection-> connect_error);
 		}
