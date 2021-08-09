@@ -38,8 +38,8 @@
 </body>
 </html>
 <?php 
-$connection=mysqli_connect("localhost:3307","root","","library") or die("no connected");
-mysqli_select_db($connection,"library") or die("no database");
+$connection=mysqli_connect("remotemysql.com","SD3e56MviP","d2ti4lGtey","SD3e56MviP") or die("no connected");
+mysqli_select_db($connection,"SD3e56MviP") or die("no database");
 if(isset($_POST['login']))
 {
 	session_start();
