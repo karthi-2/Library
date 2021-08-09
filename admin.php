@@ -38,8 +38,8 @@
 </body>
 </html>
 <?php 
-$connection=mysqli_connect("localhost","id17336297_karthi","Karthikarthi123$","id17336297_library") or die("no connected");
-mysqli_select_db($connection,"id17336297_library") or die("no database");
+$connection=mysqli_connect("remotemysql.com","SD3e56MviP","d2ti4lGteY","SD3e56MviP") or die("no connected");
+mysqli_select_db($connection,"SD3e56MviP") or die("no database");
 if(isset($_POST['login']))
 {
 $name=$_POST['email'];
