@@ -27,7 +27,7 @@
 			<th><b>Remove</b></th>
 		</tr>
 		<?php
-		$connection=mysqli_connect("remotemysql.com","SD3e56MviP","d2ti4lGtey","SD3e56MviP") or die("no connected");
+		$connection=mysqli_connect("remotemysql.com","SD3e56MviP","d2ti4lGteY","SD3e56MviP") or die("no connected");
 		mysqli_select_db($connection,"SD3e56MviP") or die("no database");
 		if($connection-> connect_error){
 			die("connection failed:". $connection-> connect_error);
