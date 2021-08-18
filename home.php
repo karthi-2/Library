@@ -95,7 +95,7 @@
 	</ul>
 	<a href="user.php" ><img src="user.png" class="user" ></a>
 	<a href="admin.php" ><img src="admin.png" class="admin"></a>
-	<br>
+	<br><br>
 	<a href="user.php"><span class="u">User</span></a><a href="admin.html"><span class="a">Librarian</span></a>
 
 </body>
